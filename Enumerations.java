@@ -69,7 +69,7 @@ public final class Payment extends Enum<Payment> {
   private Payment(int amount) {
     this.amount = amount;
   }
-   privare Payment() {}
+   private Payment() {}
 
   public int getAmount() {
     return this.amount;
